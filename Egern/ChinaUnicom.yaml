@@ -1,0 +1,14 @@
+name: 中国联通组件服务
+description: 获取联通登录凭据，写入独立的 Zayia BoxJS 变量，供 Scripting 小组件读取。
+author: Zayia
+scriptings:
+  - http_request:
+      name: 联通凭据抓取
+      match: '^https:\/\/m\.client\.10010\.com\/navigationService\/naviService\/hotRecommend(?:\?.*)?$'
+      script_url: https://raw.githubusercontent.com/Timkeltis/ChinaUnicom-Scripting/main/Scripts/ChinaUnicom.js?v=1.0.6
+      body_required: false
+      timeout: 5
+mitm:
+  hostnames:
+    includes:
+      - m.client.10010.com
