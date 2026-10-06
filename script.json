@@ -1,0 +1,45 @@
+{
+  "permissions" : null,
+  "contributors" : [
+
+  ],
+  "localizedNames" : {
+    "ru" : "",
+    "pt" : "",
+    "ja" : "",
+    "fr" : "",
+    "zh" : "",
+    "es" : "",
+    "en" : "",
+    "de" : "",
+    "it" : ""
+  },
+  "color" : "rgba(238, 92, 98,1)",
+  "icon" : "antenna.radiowaves.left.and.right",
+  "iconImage" : null,
+  "version" : "1.0.9",
+  "intentInputTypes" : [
+
+  ],
+  "runInApp" : false,
+  "entry" : "index.tsx",
+  "localizedDescriptions" : {
+    "fr" : "",
+    "es" : "",
+    "ru" : "",
+    "zh" : "",
+    "en" : "",
+    "de" : "",
+    "ja" : "",
+    "it" : "",
+    "pt" : ""
+  },
+  "name" : "中国联通",
+  "remoteResource" : null,
+  "author" : {
+    "email" : null,
+    "name" : "ByteValley",
+    "homepage" : null
+  },
+  "description" : "通过代理客户端抓取联通凭据，读取 Zayia BoxJS 变量并查询联通余量。"
+}
