@@ -1,3 +1,13 @@
+> ## 来源与用途说明
+>
+> 本仓库内容来源于 [Zayia/NetTool](https://github.com/Zayia/NetTool) 中的中国联通组件及相关代理配置。
+>
+> 建立本仓库的目的仅为 **个人备份、个人使用及后续维护**：将 Scripting 小组件、Loon、Surge、Egern、Quantumult X 与 BoxJS 相关资源集中保存，便于自行安装和更新。
+>
+> 原项目的著作权与相关权利归原作者所有；本仓库不代表原作者立场，也不作为官方发布渠道。
+
+---
+
 # ChinaUnicom-Scripting
 
 中国联通余量查询 Scripting 小组件完整源代码。
