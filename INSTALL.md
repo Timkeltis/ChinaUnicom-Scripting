@@ -1,3 +1,7 @@
+> **来源说明**：本项目基于 [Zayia/NetTool](https://github.com/Zayia/NetTool) 的中国联通组件与代理配置整理、迁移而来；由 [Timkeltis](https://github.com/Timkeltis) 独立维护。
+>
+> 已将 Scripting 小组件、Loon／Surge／Egern／Quantumult X 配置及 BoxJS 配置统一迁移至本仓库，后续更新请以本仓库为准。
+
 # 中国联通组件服务
 
 选择你正在使用的客户端安装对应资源，启用脚本和 MITM，信任该客户端的 MITM 证书，然后打开中国联通 App 首页触发抓取。
