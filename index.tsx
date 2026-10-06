@@ -73,7 +73,7 @@ declare const Dialog: any
  * - 常量区无日志
  * ===================================================================== */
 
-const VERSION = "1.0.9"
+const VERSION = "1.1.0"
 const BUILD_DATE = "2026-10-05"
 
 /* =====================================================================
@@ -90,15 +90,15 @@ const BUILD_DATE = "2026-10-05"
  * ===================================================================== */
 
 const UNICOM_BOXJS_SUB_URL =
-  "http://boxjs.com/#/sub/add/https://raw.githubusercontent.com/Zayia/NetTool/main/BoxJs/ComponentService.boxjs.json"
+  "http://boxjs.com/#/sub/add/https://raw.githubusercontent.com/Timkeltis/ChinaUnicom-Scripting/main/BoxJs/ComponentService.boxjs.json"
 const UNICOM_MODULE_URL =
-  "https://raw.githubusercontent.com/Zayia/NetTool/main/surge/ChinaUnicom.sgmodule"
+  "https://raw.githubusercontent.com/Timkeltis/ChinaUnicom-Scripting/main/surge/ChinaUnicom.sgmodule"
 const UNICOM_EGERN_MODULE_URL =
-  "https://raw.githubusercontent.com/Zayia/NetTool/main/Egern/ChinaUnicom.yaml"
+  "https://raw.githubusercontent.com/Timkeltis/ChinaUnicom-Scripting/main/Egern/ChinaUnicom.yaml"
 const UNICOM_LOON_PLUGIN_URL =
-  "https://raw.githubusercontent.com/Timkeltis/NetTool/3f41f3d7cd4adc1df167c048816f9094424de0d4/Loon/ChinaUnicom.lpx"
+  "https://raw.githubusercontent.com/Timkeltis/ChinaUnicom-Scripting/main/Loon/ChinaUnicom.lpx"
 const UNICOM_QX_REWRITE_URL =
-  "https://raw.githubusercontent.com/Zayia/NetTool/main/QuantumultX/ChinaUnicom.conf"
+  "https://raw.githubusercontent.com/Timkeltis/ChinaUnicom-Scripting/main/QuantumultX/ChinaUnicom.conf"
 
 const links: ModuleLinks = {
   boxjsSubUrl: UNICOM_BOXJS_SUB_URL,
