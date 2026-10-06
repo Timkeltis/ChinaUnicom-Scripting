@@ -1,0 +1,37 @@
+{
+  "id": "Zayia.ComponentService",
+  "name": "Zayia 组件服务",
+  "author": "@Zayia",
+  "description": "联通登录凭据采集，使用独立存储供 Scripting 小组件读取。",
+  "repo": "https://github.com/Timkeltis/ChinaUnicom-Scripting",
+  "apps": [
+    {
+      "id": "ZayiaComponentService.ChinaUnicom",
+      "name": "中国联通",
+      "descs_html": [
+        "配合 Zayia 的 Surge / Egern / Loon / Quantumult X 资源，在打开中国联通 App 首页时自动提取登录 Cookie。",
+        "<b>使用方法：</b>启用对应客户端的模块、插件或重写及 MITM 后，打开联通 App 首页，触发目标请求。自动保存 <code>ecs_token</code>、<code>ecs_acc</code>，以及请求中 <code>login_type</code> 的原值（如 06、19）；不限制为 01，不补默认值。有手机号和版本时也会保留。",
+        "<b>独立变量：</b><code>@ZayiaComponentService.ChinaUnicom.Settings.Cookie</code>。与原作者的 <code>ComponentService</code> 存储分开，不会覆盖原 Cookie。",
+        "<b>Scripting：</b>使用本项目的 1.0.2 或更新版本。启用 BoxJS 时读取本变量；读取失败或关闭 BoxJS 时，仍按原逻辑使用设置页中的手动 Cookie。",
+        "添加订阅只创建配置入口，不会自动获取或复制旧 Cookie；请更新对应客户端资源后，在联通 App 中重新触发抓取。"
+      ],
+      "icons": [
+        "https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/icon.png",
+        "https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/icon.png"
+      ],
+      "keys": [
+        "@ZayiaComponentService.ChinaUnicom.Settings"
+      ],
+      "settings": [
+        {
+          "id": "@ZayiaComponentService.ChinaUnicom.Settings.Cookie",
+          "name": "联通 Cookie",
+          "type": "text",
+          "val": "",
+          "placeholder": "打开联通 App 首页后由代理客户端自动写入",
+          "desc": "保存 ecs_token、ecs_acc 及抓取到的 login_type 原值组成的 Cookie，供 Scripting 读取。此项属于 BoxJS 变量，不是 Scripting 设置页里的手动 Cookie。"
+        }
+      ]
+    }
+  ]
+}
