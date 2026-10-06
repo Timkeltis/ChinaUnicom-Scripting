@@ -1,0 +1,10 @@
+#!name=中国联通组件服务
+#!desc=获取联通登录凭据，写入独立的 Zayia BoxJS 变量，供 Scripting 小组件读取。
+#!author=Zayia
+#!tag=组件服务
+
+[Script]
+http-request ^https:\/\/m\.client\.10010\.com\/.* script-path=https://raw.githubusercontent.com/Timkeltis/ChinaUnicom-Scripting/0e17674fe9fb07163412ed6f5ded9a6396ceb1cc/Scripts/ChinaUnicom.js, requires-body=false, timeout=5, tag=联通凭据抓取
+
+[MITM]
+hostname = m.client.10010.com
